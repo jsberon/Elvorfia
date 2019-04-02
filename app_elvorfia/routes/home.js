@@ -2,10 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 /* GET home page. */
+// eslint-disable-next-line no-unused-vars
 router.get('/', function(req, res, next) {
     var jsonData = {
-	    title: 'Elvorfia',
-        layout: 'home/pt_home.hbs'
+        title: 'Elvorfia',
+        layout: 'home/pt_home.hbs',
     };
     res.render('home/home.hbs', jsonData);
 });
