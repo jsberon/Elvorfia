@@ -1,3 +1,25 @@
+# Elvorfia
+
+## Git repository conventions
+
+main branch : develop
+
+branch naming : (XX by task number and m* by explicative message)
+feature/TASK-XX-mmmmmmmmmmmmmmmmmmm
+
+commit naming : (XX by task number and m* by explicative message)
+feat(TASK-XX): GLOBAL - mmmmmmmmmmmmmmm
+
+every pull request must contains only one commit
+
+## application start
+
+```npm start```
+
+then go to 127.0.0.1:3000
+
+##############################################################
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/jsberon/Elvorfia/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
