@@ -4,11 +4,10 @@ var router = express.Router();
 /* GET home page. */
 // eslint-disable-next-line no-unused-vars
 router.get('/', function(req, res, next) {
-    var jsonData = {
+    var context = {
         title: 'Elvorfia',
-        layout: 'home/pt_home.hbs',
     };
-    res.render('home/home.hbs', jsonData);
+    res.render('home/home.hbs', context);
 });
 
 module.exports = router;
