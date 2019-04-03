@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{title}}</title>
+        <link rel="stylesheet" href="/stylesheets/style.css" />
+        <link rel="stylesheet" href="/css/bootstrap.min.css" />
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </head>
+    <body class="pt_elvorfia">
+	    <div class="container">
+        <header class="row">
+            {{> header }}
+        </header>
+        <nav class="row">
+            {{> navigation }}
+        </nav>
+        <section class="row">
+		    <div class="content col-9">
+            {{{body}}}
+			</div>
+		<aside class="col-3">
+            {{> aside }}
+        </aside>
+        </section>
+        <footer class="row">
+            {{> footer }}
+        </footer>
+		</div>
+    </body>
+</html>
