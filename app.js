@@ -9,6 +9,7 @@ var logger = require('morgan');
 
 var homeRouter = require('./app_elvorfia/routes/home');
 var usersRouter = require('./app_elvorfia/routes/users');
+var cardbrawlprojectRouter = require('./app_elvorfia/routes/cardbrawlproject');
 
 var app = express();
 
@@ -28,6 +29,7 @@ app.use(express.static(path.join(__dirname, 'app_elvorfia/static')));
 app.use('/', homeRouter);
 app.use('/home', homeRouter);
 app.use('/users', usersRouter);
+app.use('/cardbrawlproject', cardbrawlprojectRouter)
 
 app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js'))); // redirect bootstrap JS
 app.use('/js', express.static(path.join(__dirname, 'node_modules/jquery/dist'))); // redirect JS jQuery

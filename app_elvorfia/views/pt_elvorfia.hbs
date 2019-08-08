@@ -8,17 +8,15 @@
         <script src="/js/bootstrap.min.js"></script>
     </head>
     <body class="pt_elvorfia">
+        {{> navigation }}
         <div class="container">
             <header class="row">
                 {{> header }}
             </header>
-            <nav class="row">
-                {{> navigation }}
-            </nav>
             <section class="row">
-                <div class="content col-9">
+                <article class="content col-9">
                     {{{body}}}
-                </div>
+                </article>
                 <aside class="col-3">
                     {{> aside }}
                 </aside>
