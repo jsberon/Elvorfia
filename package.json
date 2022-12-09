@@ -11,7 +11,7 @@
         "cookie-parser": "~1.4.3",
         "debug": "~2.6.9",
         "eslint": "^5.16.0",
-        "express": "^4.16.4",
+        "express": "^4.17.3",
         "gulp": "^4.0.0",
         "gulp-eslint": "^5.0.0",
         "gulp-eslint-if-fixed": "^1.0.0",
